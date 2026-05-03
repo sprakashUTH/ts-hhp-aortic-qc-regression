@@ -1,0 +1,22 @@
+variable,description,units_or_values
+patient_id,Deidentified HHP analysis identifier; not an original medical record number or name.,integer
+segment,Aortic segment analyzed: ascending or sinus.,categorical
+baseline_diameter_cm,First available segment-specific diameter in the HHP longitudinal dataset.,cm
+best_slope_mm_per_year,Best-model longitudinal growth slope converted from cm/year to mm/year; uses available slope estimate from pooled best-model output.,mm/year
+best_slope_floored_mm_per_year,Best slope floored at zero for censored/logistic analyses.,mm/year
+baseline_diameter_per_5mm,Baseline diameter scaled per 0.5 cm increment.,per 5 mm
+age_first_hhp_years,"Age at first HHP record, rounded; extracted from HHP spreadsheet.",years
+height_baseline_cm,Height at first HHP record.,cm
+bmi_baseline,BMI at first HHP record.,kg/m2
+bmi_median,Median BMI across HHP records.,kg/m2
+bav_ever,Ever coded as bicuspid aortic valve in HHP source data.,0/1
+coarctation_ever,Ever coded as coarctation in HHP source data.,0/1
+hypertension_ever,Ever coded as hypertension in HHP source data.,0/1
+karyotype_45x_ever,"Ever coded as 45,X in HHP source data.",0/1
+non45x_ever,"Ever coded as non-45,X in HHP source data.",0/1
+prior_surgery_hhp_ever,Ever coded as surgery in HHP source data; this is not the manuscript follow-up surgical endpoint unless explicitly validated.,0/1
+top40_member_mapped,Mapped membership in enriched Top40/29 cohort based on linking log exact last-name match. Unresolved/ambiguous entries are not flagged.,0/1
+delta_cm,"Observed minus expected diameter at maximum observed diameter, from high-risk output.",cm
+AHI_cm_per_m,Aortic height index from high-risk output.,cm/m
+progression_ge_1mm,Derived endpoint: best_slope_floored_mm_per_year >= 1.,0/1
+composite_endpoint_available,Availability flag for manuscript clinical composite endpoint.,text

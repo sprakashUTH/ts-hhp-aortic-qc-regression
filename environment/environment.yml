@@ -1,0 +1,15 @@
+name: hhp-aortic-qc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - statsmodels>=0.14
+  - matplotlib>=3.7
+  - scipy>=1.10
+  - patsy>=0.5
+  - jupyterlab=4.0
+  - pip
+  - pip:
+    - notebook

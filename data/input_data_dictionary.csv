@@ -1,0 +1,7 @@
+variable,required,description,example_or_allowed_values
+patient_id,yes,De-identified participant identifier,1001
+study_date,yes,Date of imaging or echocardiographic measurement,YYYY-MM-DD
+height_cm,yes,Participant height in centimeters,165.0
+segment,yes,Aortic segment measured,sinus; ascending
+diameter_cm,yes,Aortic diameter in centimeters,3.1
+Source,no,Measurement source used for plotting/weighting,HHP; outside; CTMR
