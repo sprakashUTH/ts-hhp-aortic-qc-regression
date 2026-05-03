@@ -1,1 +1,0 @@
-VALIDATION PASSED: filenames and schemas are compatible with the public code archive.
