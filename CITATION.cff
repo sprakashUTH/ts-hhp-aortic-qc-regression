@@ -13,8 +13,8 @@ authors:
   given-names: Matthew
   year: 2026
   license: MIT
-  repository-code: "https://github.com/YOUR_USERNAME/hhp-aortic-qc-regression"
-  url: "https://github.com/YOUR_USERNAME/hhp-aortic-qc-regression"
+  repository-code: "https://github.com/sprakashUTH/ts-hhp-aortic-qc-regression"
+  url: "https://github.com/sprakashUTH/ts-hhp-aortic-qc-regression"
   keywords:
 * aortic disease
 * longitudinal analysis
