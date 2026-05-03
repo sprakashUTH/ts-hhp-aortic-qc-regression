@@ -2,25 +2,20 @@ cff-version: 1.2.0
 title: "Healthy Heart Project Aortic Diameter Quality Control and Regression Analysis Pipeline"
 message: "If you use this software, please cite it using the metadata below."
 type: software
+doi: 10.5281/zenodo.20004811
 authors:
-
-* family-names: Prakash
+- family-names: Prakash
   given-names: Siddharth
   orcid: "https://orcid.org/0000-0001-6341-9624"
-* family-names: Doerner
+- family-names: Doerner
   given-names: Dylan
-* family-names: Johnson
+- family-names: Johnson
   given-names: Matthew
-  year: 2026
-  license: MIT
-  repository-code: "https://github.com/sprakashUTH/ts-hhp-aortic-qc-regression"
-  url: "https://github.com/sprakashUTH/ts-hhp-aortic-qc-regression"
-  keywords:
-* aortic disease
-* longitudinal analysis
-* mixed-effects modeling
-* reproducible research
-  references:
-* type: dataset
-  title: "HHP Aortic De-identified Dataset"
-  doi: 10.5281/zenodo.20004811
+year: 2026
+license: MIT
+repository-code: "https://github.com/sprakashUTH/ts-hhp-aortic-qc-regression"
+keywords:
+- aortic disease
+- longitudinal analysis
+- mixed-effects modeling
+- reproducible research
