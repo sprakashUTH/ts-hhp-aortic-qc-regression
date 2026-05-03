@@ -1,6 +1,0 @@
-If you use this dataset, please cite:
-
-Prakash S, Doerner D, Johnson M.
-De-identified analytic datasets for Turner Syndrome Healthy Heart Project aortic QC and regression analyses.
-Zenodo. 2026.
-https://doi.org/10.5281/zenodo.20004811
