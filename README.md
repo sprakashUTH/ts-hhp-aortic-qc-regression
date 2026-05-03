@@ -22,7 +22,7 @@ Participants are identified using the column:
 - cohort_group (HHP vs Top40)
 
 This dataset is archived at:
-https://doi.org/10.5281/zenodo.XXXXXXX
+https://doi.org/10.5281/zenodo.20004811
 
 It is designed to be used with:
 - hhp-aortic-qc-pipeline (code)
